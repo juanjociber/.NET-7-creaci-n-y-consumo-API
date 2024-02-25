@@ -10,7 +10,11 @@ namespace API_NET7
 
             CreateMap<Villa, VillaDTO>().ReverseMap();
             CreateMap<Villa, VillaCreateDTO>().ReverseMap();
-            CreateMap<Villa,VillaUpdateDTO>().ReverseMap();
+            CreateMap<Villa, VillaUpdateDTO>().ReverseMap();
+
+            CreateMap<NumeroVilla, NumeroVillaDTO>().ReverseMap();
+            CreateMap<NumeroVilla, NumeroVillaCreateDTO>().ReverseMap();
+            CreateMap<NumeroVilla, NumeroVillaUpdateDTO>().ReverseMap();
 
         }
     }
